@@ -13,7 +13,6 @@ int main() {
 	int operation;
 	char option[5];
 	printf("\n\t------------Calculator------------\n");
-	
 	printf("\n\n\t<======= Choose Your Calculator =======>\n");
 	printf("\n\tBasic Calculator => (bc) ---------- Advance Calculator => (ac) \n"); // Calculator Type
 	printf("\nTap Here (bc  or  ac) : "); // Tap Your Type
