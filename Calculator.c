@@ -92,7 +92,7 @@ int main() {
 	            result = pow(a , b);
 	            break;
 	        default:
-	        	printf("\nUnknown Operation !\n");
+	        	printf("\n\tUnknown Operation !\n");
 			    break;	
 		}
 	}else {
