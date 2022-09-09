@@ -1,8 +1,11 @@
+
+// Simple Bank System
+
 #include <stdio.h>
 
 int main() {
 	
-	// Simple Bank System
+	// Program Variables
 	const int pw = 1234;
 	float balance = 150.36;
 	float add; 
@@ -12,22 +15,21 @@ int main() {
 	int shot = 0;
 	
 	
-	    printf("^^^^ Welcome To Your Favourite Bank ^^^^ \n\n");
+	    printf("^^^^ Welcome To Your Favourite Bank ^^^^ \n\n"); // Welcome Message
 		printf("--- Enter Your Password --- \n");
 	    scanf("%d" , &password);
 	    
 	    // Password Checkout
 	    while(password  != 1234 && shot < 2) {
-		    
 		    printf("Wrong Password !\n");
 		    printf("\n--- Re-enter Your Password --- \n");
 	        scanf("%d" , &password);
-		
 	   }
+	   
 	   if(shot == 2) {
-	   	     
-	   	    printf("Your Card Has Been Taken Go To Your Bank Area To Get it Back  \n");
+	   	    printf("Your Card Has Been Taken Go To Your Bank Area To Get it Back  \n"); // The Card Will be Taken After Three Tries of Failing
 	   }
+	   // If The Password Was Correct
 	   else {
 	   	  
 	   	  printf("\nWelcome To Your Account \n\n");
